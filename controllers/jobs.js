@@ -1,5 +1,5 @@
 const getAllJobs = (req, res) => {
-  res.send("all jobs");
+  res.json(req.user);
 };
 
 const getSingleJob = (req, res) => {
